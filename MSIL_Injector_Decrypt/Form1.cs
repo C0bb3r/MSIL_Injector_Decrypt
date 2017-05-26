@@ -74,7 +74,7 @@ namespace MSIL_Injector_Decrypt
             bw.Write(buffer);
             bw.Close();
             fs.Close();
-            MessageBox.Show("Decrypted file: payload.bin", "Decrypted!");
+            MessageBox.Show("Decrypted file: payload.bin", "Decrypted!");		//payload.bin - "VirTool:MSIL/Subti.K" (Microsoft)
             this.Close();
             //Assembly assembly = Assembly.Load(list.ToArray());
             //assembly.EntryPoint.Invoke(null, new object[0]);

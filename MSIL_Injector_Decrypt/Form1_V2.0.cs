@@ -1,5 +1,4 @@
-# -*- coding:utf-8 -*-
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,28 +25,28 @@ namespace MSIL_Injector_Decrypt
         {
             return new string[]
 			{
-				"ÒÁË¿±È°¬°¬ÚÀÎá°¬Âí°¬±ÈÒÁ°¬±ÈÅ¶±È¿ËÒÁµÂÎá¶¹¿ªË¹",
-				"ÚÀ°¬Î÷ÌáÎá°¬¿ª¶¹¶ùÎ¬°¬ÀÕÎá½Ü°¬¸¥ÄÈÀÕÂíÔô",
-				"°¬ÎáÂí¿Ë°¬¶¹°¬³ß±ÈÄÈ",
-				"½Ü³ß±È¶ûÎ÷µÂÄÈ¼ª°¬½ÜÀÕÒÁÌáÎ÷°¬¶ûÆ¨¸¥ÚÀ",
-				"ÎáÒÁµÂÅ¶¿ªË¿ÀÕÌáÆ¨",
-				"ÌáÒÁµÂ±´ÀÕ¿ªÆ¨°¬°¬¼ªË¹",
-				"ÎáÄÈË¹°¬°¬ÒÁ¿ËÌá¸¥",
-				"³ß¿ª°¬ÎáÂí°¬ÌáÎ¬¶¹°¬¼ª",
-				"ÄÈ°¬ÎáÀÕ±ÈµÏ¸¥°¬ÎáË¹Î÷°¬°¬°¬µÂ¼ªÂí¶¹°¬",
-				"¼ªË¹ÚÀË¿ÒÁ°¬µÏÎá°¬¶¹µÂ°¬°¬°¬½Ü°¬¼ª³ß",
-				"¸¥µÏÎ¬°¬¸¥¶¹ÄÈÎ¬¿ªÀÕ",
-				"¶ù¶ù°¬µÂÌáË¿¶ù¶ûµÂ¿ªÀÕ¼ª°¬¼ª°¬Æ¨°¬°¬°¬Î¬°¬",
-				"°¬¿Ë°¬¶ù°¬°¬¿ËÒÁÔôÄÈÎ¬ÌáÎ¬±ÈÎ÷°¬°¬°¬Î¬",
-				"ÄÈË¿ÄÈ°¬Îá°¬Î¬°¬¶¹°¬½ÜÎáÎ¬°¬",
-				"°¬°¬°¬ÂíÌáÅ¶Ìá¼ªË¹°¬±È¼ª¶û¶¹±ÈÂí°¬Î¬µÂ",
-				"Î¬ÒÁÂí¼ª°¬Ìá³ß°¬Îá",
-				"³ß³ßÎ¬Î¬½Ü°¬¶¹ÒÁ¶¹°¬ÔôË¹°¬Âí¿ËË¹Ôô°¬Îá°¬±ÈÎ¬µÏ",
-				"Âí¼ªÎá½ÜË¿±´Î¬ÂíÔôÅ¶Ë¹¿ªÂí¶û°¬½Ü°¬±ÈÂí±È°¬°¬",
-				"µÂµÂ°¬µÏ¿ªµÂµÏµÂÎ¬Îá",
-				"°¬°¬Î¬°¬°¬°¬ÒÁ¼ªÄÈÎáÎá°¬°¬ÒÁ¶û",
-				"ÎáÎá°¬Ë¿°¬Ë¿¼ªµÏ°¬°¬Æ¨¼ª±´±ÈÄÈ°¬ÒÁ°¬¶¹Ë¿¿Ë¸¥",
-				"°¬Î÷±´°¬°¬ÀÕ°¬Æ¨¶ù¸¥ÒÁ°¬°¬°¬¶ù°¬µÏ"
+				"ä¼Šä¸æ¯”è‰¾è‰¾è¯¶å¾è‰¾é©¬è‰¾æ¯”ä¼Šè‰¾æ¯”å“¦æ¯”å…‹ä¼Šå¾·å¾è±†å¼€æ–¯",
+				"è¯¶è‰¾è¥¿æå¾è‰¾å¼€è±†å„¿ç»´è‰¾å‹’å¾æ°è‰¾å¼—å¨œå‹’é©¬è´¼",
+				"è‰¾å¾é©¬å…‹è‰¾è±†è‰¾å°ºæ¯”å¨œ",
+				"æ°å°ºæ¯”å°”è¥¿å¾·å¨œå‰è‰¾æ°å‹’ä¼Šæè¥¿è‰¾å°”å±å¼—è¯¶",
+				"å¾ä¼Šå¾·å“¦å¼€ä¸å‹’æå±",
+				"æä¼Šå¾·è´å‹’å¼€å±è‰¾è‰¾å‰æ–¯",
+				"å¾å¨œæ–¯è‰¾è‰¾ä¼Šå…‹æå¼—",
+				"å°ºå¼€è‰¾å¾é©¬è‰¾æç»´è±†è‰¾å‰",
+				"å¨œè‰¾å¾å‹’æ¯”è¿ªå¼—è‰¾å¾æ–¯è¥¿è‰¾è‰¾è‰¾å¾·å‰é©¬è±†è‰¾",
+				"å‰æ–¯è¯¶ä¸ä¼Šè‰¾è¿ªå¾è‰¾è±†å¾·è‰¾è‰¾è‰¾æ°è‰¾å‰å°º",
+				"å¼—è¿ªç»´è‰¾å¼—è±†å¨œç»´å¼€å‹’",
+				"å„¿å„¿è‰¾å¾·æä¸å„¿å°”å¾·å¼€å‹’å‰è‰¾å‰è‰¾å±è‰¾è‰¾è‰¾ç»´è‰¾",
+				"è‰¾å…‹è‰¾å„¿è‰¾è‰¾å…‹ä¼Šè´¼å¨œç»´æç»´æ¯”è¥¿è‰¾è‰¾è‰¾ç»´",
+				"å¨œä¸å¨œè‰¾å¾è‰¾ç»´è‰¾è±†è‰¾æ°å¾ç»´è‰¾",
+				"è‰¾è‰¾è‰¾é©¬æå“¦æå‰æ–¯è‰¾æ¯”å‰å°”è±†æ¯”é©¬è‰¾ç»´å¾·",
+				"ç»´ä¼Šé©¬å‰è‰¾æå°ºè‰¾å¾",
+				"å°ºå°ºç»´ç»´æ°è‰¾è±†ä¼Šè±†è‰¾è´¼æ–¯è‰¾é©¬å…‹æ–¯è´¼è‰¾å¾è‰¾æ¯”ç»´è¿ª",
+				"é©¬å‰å¾æ°ä¸è´ç»´é©¬è´¼å“¦æ–¯å¼€é©¬å°”è‰¾æ°è‰¾æ¯”é©¬æ¯”è‰¾è‰¾",
+				"å¾·å¾·è‰¾è¿ªå¼€å¾·è¿ªå¾·ç»´å¾",
+				"è‰¾è‰¾ç»´è‰¾è‰¾è‰¾ä¼Šå‰å¨œå¾å¾è‰¾è‰¾ä¼Šå°”",
+				"å¾å¾è‰¾ä¸è‰¾ä¸å‰è¿ªè‰¾è‰¾å±å‰è´æ¯”å¨œè‰¾ä¼Šè‰¾è±†ä¸å…‹å¼—",
+				"è‰¾è¥¿è´è‰¾è‰¾å‹’è‰¾å±å„¿å¼—ä¼Šè‰¾è‰¾è‰¾å„¿è‰¾è¿ª"
 			};
         }
 
@@ -93,7 +92,7 @@ namespace MSIL_Injector_Decrypt
             bw.Write(tJHCUMgDZPB2tJHCUMgDZPB3);
             bw.Close();
             fs.Close();
-            MessageBox.Show("Decrypted file: payload.bin", "Decrypted!");
+            MessageBox.Show("Decrypted file: payload.bin", "Decrypted!");		//payload.bin - "VirTool:MSIL/Subti.K" (Microsoft)
             this.Close();
         }
     }
