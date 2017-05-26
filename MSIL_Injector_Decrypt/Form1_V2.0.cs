@@ -10,7 +10,6 @@ using System.Resources;
 using System.Reflection;
 using System.IO;
 
-
 //Decrypt MSIL injector malware: 0190c4ad7e930bd060ac766c23f4bd890c85b916
 
 namespace MSIL_Injector_Decrypt
