@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD9D971A-CB89-443C-A8A3-23E4C1E15B56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSIL_Injector_Decrypt</RootNamespace>
+    <AssemblyName>MSIL_Injector_Decrypt</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\cibVAGgDRVjMjQs" />
+    <None Include="Resources\丝维尔吾迪儿伊艾诶勒尺艾马比艾比艾" />
+    <None Include="Resources\儿艾弗斯艾艾艾贝尺马哦维" />
+    <None Include="Resources\吉尺西开吉德豆斯豆吉艾马弗艾娜尺西儿吾豆吉艾丝" />
+    <None Include="Resources\吉迪吾吾豆西豆比艾屁艾迪吉艾斯" />
+    <None Include="Resources\吾艾维斯开德艾迪伊艾" />
+    <None Include="Resources\哦贝豆马维西吾提吾迪伊西哦艾马艾" />
+    <None Include="Resources\娜吾艾艾艾艾西吾艾尔贼" />
+    <None Include="Resources\尺伊维诶迪艾伊" />
+    <None Include="Resources\屁艾吉尔吾伊马提艾艾儿尔吉娜马屁德贼伊吾吉克吾" />
+    <None Include="Resources\弗艾艾勒尔伊尔丝迪艾" />
+    <None Include="Resources\斯开勒德艾贼艾" />
+    <None Include="Resources\杰杰哦屁维弗尺伊" />
+    <None Include="Resources\杰艾杰伊贼马杰西开弗维比艾" />
+    <None Include="Resources\维克娜吾吉提吉勒吾伊克弗娜艾艾" />
+    <None Include="Resources\艾丝迪豆提艾斯艾艾屁儿吉" />
+    <None Include="Resources\艾吉诶屁西屁哦克" />
+    <None Include="Resources\艾吾屁杰吉艾吾弗尺艾尔比马西迪贼" />
+    <None Include="Resources\艾开吾豆西吾艾豆伊勒迪迪艾" />
+    <None Include="Resources\贝尔比艾吉艾伊" />
+    <None Include="Resources\贼吾德贝哦丝艾艾吉开维儿弗吾豆伊诶迪马吾开" />
+    <None Include="Resources\贼迪娜迪吾吾马艾贝尺尔哦吾吾屁艾尔比" />
+    <None Include="Resources\迪儿伊尺迪伊艾艾比诶吾屁豆比马儿儿" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

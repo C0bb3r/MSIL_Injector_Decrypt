@@ -1,0 +1,7 @@
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\bin\Debug\MSIL_Injector_Decrypt.exe
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\bin\Debug\MSIL_Injector_Decrypt.pdb
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\obj\Debug\MSIL_Injector_Decrypt.Form1.resources
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\obj\Debug\MSIL_Injector_Decrypt.Properties.Resources.resources
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\obj\Debug\MSIL_Injector_Decrypt.csproj.GenerateResource.Cache
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\obj\Debug\MSIL_Injector_Decrypt.exe
+E:\C#_Project\MSIL_Injector_Decrypt\MSIL_Injector_Decrypt\obj\Debug\MSIL_Injector_Decrypt.pdb
