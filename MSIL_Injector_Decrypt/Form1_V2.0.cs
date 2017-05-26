@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
