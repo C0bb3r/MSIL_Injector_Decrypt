@@ -1,3 +1,3 @@
-# MSIL_Kryptik_Decrypt
+# MSIL_Injector_Decrypt
 
-Unpack and dump the .net PE file from its resource. (It's usually used in malware tech)
+Decrypt and unpack the .net PE file from its resource. (Usually the resource is encrypted as bmp pixel)
