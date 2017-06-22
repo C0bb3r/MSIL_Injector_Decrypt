@@ -1,7 +1,7 @@
 import sys, os
 from PIL import Image
 
-# Sample hash:b02638432c7139c32588c8f0406c96ebd21ec29c
+#Decrypt malware: b02638432c7139c32588c8f0406c96ebd21ec29c
 
 def get_bytes_array(resource_path):
 	img = Image.open(resource_path)
